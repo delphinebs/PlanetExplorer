@@ -63,3 +63,58 @@ CompilationAction 1446212534071 TestPlanetExplorer.java
 CompilationAction 1446212534071 TestPlanetExplorer.java
 CompilationAction 1446212534072 TestPlanetExplorer.java
 EditAction 1446212539047 PlanetExplorer.java 2096 10 12 0
+CompilationAction 1446212539320 PlanetExplorer.java
+CompilationAction 1446212539321 PlanetExplorer.java
+CompilationAction 1446212539322 PlanetExplorer.java
+CompilationAction 1446212539322 PlanetExplorer.java
+CompilationAction 1446212539323 TestPlanetExplorer.java
+CompilationAction 1446212539324 TestPlanetExplorer.java
+CompilationAction 1446212539324 TestPlanetExplorer.java
+RefactoringAction 1446212574602 PlanetExplorer.java RENAME getxSize()=>int getxPosition() METHOD
+RefactoringAction 1446212594653 PlanetExplorer.java RENAME setxSize(int)=>void setxPosition(int) METHOD
+RefactoringAction 1446212643465 PlanetExplorer.java RENAME getySize()=>int getyPosition() METHOD
+RefactoringAction 1446212649484 PlanetExplorer.java RENAME setySize(int)=>void setyPosition(int) METHOD
+CompilationAction 1446212658876 PlanetExplorer.java
+CompilationAction 1446212658877 PlanetExplorer.java
+CompilationAction 1446212658878 PlanetExplorer.java
+CompilationAction 1446212658879 PlanetExplorer.java
+CompilationAction 1446212659066 PlanetExplorer.java
+CompilationAction 1446212659067 PlanetExplorer.java
+CompilationAction 1446212659067 TestPlanetExplorer.java
+CompilationAction 1446212659067 TestPlanetExplorer.java
+CompilationAction 1446212659068 TestPlanetExplorer.java
+CompilationAction 1446212659068 TestPlanetExplorer.java
+CompilationAction 1446212659069 TestPlanetExplorer.java
+RefactoringAction 1446212681026 TestPlanetExplorer.java RENAME testCreatePlanetSetSize()=>void testPlanetSetSize() METHOD
+RefactoringAction 1446212684039 TestPlanetExplorer.java RENAME testPlanetSetSize()=>void testPlanetExplorerSetSize() METHOD
+RefactoringAction 1446212688054 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1446212692567 TestPlanetExplorer.java RENAME test=>void testPlanetsize FIELD
+RefactoringAction 1446212694077 TestPlanetExplorer.java RENAME testPlanetsize=>void testPlanetsize() METHOD
+RefactoringAction 1446212862489 PlanetExplorer.java RENAME setPlanetSize(int=>void setPlanetSize() METHOD
+RefactoringAction 1446212867003 PlanetExplorer.java RENAME setPlanetSize()=>void setPlanetSize(int METHOD
+CompilationAction 1446212899679 TestPlanetExplorer.java
+CompilationAction 1446212899680 TestPlanetExplorer.java
+CompilationAction 1446212899681 TestPlanetExplorer.java
+CompilationAction 1446212899682 TestPlanetExplorer.java
+CompilationAction 1446212899682 TestPlanetExplorer.java
+CompilationAction 1446212899843 TestPlanetExplorer.java
+CompilationAction 1446212899844 TestPlanetExplorer.java
+CompilationAction 1446212899844 TestPlanetExplorer.java
+RefactoringAction 1446212937262 PlanetExplorer.java RENAME setPlanetSize(int=>void setPlanetSize(int) METHOD
+RefactoringAction 1446212948328 PlanetExplorer.java RENAME setPlanetSize(int)=>void setPlanetSize(int, int) METHOD
+RefactoringAction 1446212997021 PlanetExplorer.java RENAME setPlanetSize(int, int)=>void setPlanetSize(int) METHOD
+RefactoringAction 1446212999036 PlanetExplorer.java RENAME setPlanetSize(int)=>void setPlanetSize() METHOD
+RefactoringAction 1446213000548 PlanetExplorer.java RENAME setPlanetSize()=>void setPlanetSize(int METHOD
+RefactoringAction 1446213008355 PlanetExplorer.java ADD void setPlanetSize(int, int) METHOD
+RefactoringAction 1446213022088 PlanetExplorer.java REMOVE setPlanetSize(int, int) METHOD
+CompilationAction 1446213067331 PlanetExplorer.java
+CompilationAction 1446213067332 PlanetExplorer.java
+CompilationAction 1446213067494 PlanetExplorer.java
+CompilationAction 1446213067494 PlanetExplorer.java
+CompilationAction 1446213487326 PlanetExplorer.java
+CompilationAction 1446213487327 PlanetExplorer.java
+UnitTestCaseAction 1446213506048 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1446213506049 TestPlanetExplorer FAIL
+UnitTestCaseAction 1446213513561 TestPlanetExplorer.java OK
+UnitTestSessionAction 1446213513562 TestPlanetExplorer.testPlanetExplorerSetSize OK
+EditAction 1446213527915 TestPlanetExplorer.java 1021 2 8 4

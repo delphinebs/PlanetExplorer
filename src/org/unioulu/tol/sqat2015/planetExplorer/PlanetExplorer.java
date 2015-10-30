@@ -8,7 +8,7 @@ public class PlanetExplorer {
 	private int xPosition;
 	private int yPosition;
 	private String obstacles;
-	int[] planetSize = new int[2]; 
+	int planetSize[]; 
 	
 	//Getter and setter
 	
@@ -20,8 +20,8 @@ public class PlanetExplorer {
 		this.planetSize = planetSize;
 	}
 
-	public int getxSize() {
-		return xSize;
+	public int getxPosition() {
+		return xPosition;
 	}
 
 	public String getObstacles() {
@@ -32,16 +32,16 @@ public class PlanetExplorer {
 		this.obstacles = obstacles;
 	}
 
-	public void setxSize(int xSize) {
-		this.xSize = xSize;
+	public void setxPosition(int xPosition) {
+		this.xPosition = xPosition;
 	}
 
-	public int getySize() {
-		return ySize;
+	public int getyPosition() {
+		return yPosition;
 	}
 
-	public void setySize(int ySize) {
-		this.ySize = ySize;
+	public void setyPosition(int yPosition) {
+		this.yPosition = yPosition;
 	}
 
 	public PlanetExplorer(int x, int y, String obstacles){
@@ -53,8 +53,8 @@ public class PlanetExplorer {
 	 */
 		
 		
-		this.setxSize(x);
-		this.setySize(y);
+		this.setxPosition(x);
+		this.setyPosition(y);
 		this.setObstacles(obstacles);
 	}
 	
@@ -72,4 +72,6 @@ public class PlanetExplorer {
 		
 		return null;
 	}
+
+
 }
