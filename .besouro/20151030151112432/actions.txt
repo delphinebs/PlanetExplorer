@@ -150,3 +150,8 @@ RefactoringAction 1446213885272 PlanetExplorer.java ADD String getFace() METHOD
 RefactoringAction 1446213885273 PlanetExplorer.java ADD void setFace(String) METHOD
 EditAction 1446213902062 PlanetExplorer.java 2638 15 19 0
 EditAction 1446213957629 TestPlanetExplorer.java 1138 3 13 7
+UnitTestCaseAction 1446213958558 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1446213958559 TestPlanetExplorer FAIL
+UnitTestCaseAction 1446213967356 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1446213967356 TestPlanetExplorer FAIL
+EditAction 1446213985417 TestPlanetExplorer.java 1137 3 13 7
