@@ -91,6 +91,7 @@ public class PlanetExplorer {
 		}
 		else {
 			if (turn=="R"){
+				this.setFace("E");
 				switch (this.getFace()){
 				case "N": this.setFace("E");
 				case "E":this.setFace("S");
