@@ -137,14 +137,25 @@ public class PlanetExplorer {
 			if (turn=="R"){
 				
 				if(this.getFace()=="N"){
-					this.setFace("E");
-					//problem to fix with the switch case with string
-				/*case "N": this.setFace("E");
-				case "E":this.setFace("S");
-				case "S":this.setFace("W");
-				case "W":this.setFace("N");
-				*/
-				}
+					this.setFace("E");}
+					
+					else {
+						if (this.getFace()=="S"){
+							this.setFace("W");
+							
+						}
+						else{if(this.getFace()=="E"){
+							this.setFace("S");
+							
+							}
+							else {
+								if (this.getFace()=="W"){
+									this.setFace("N");
+									
+								}
+							}
+							}
+						}
 			}
 			
 			
