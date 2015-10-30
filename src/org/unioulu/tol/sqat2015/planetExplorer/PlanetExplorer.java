@@ -159,7 +159,7 @@ public class PlanetExplorer {
 			}
 			
 			
-			else{
+			else{//problem with swith
 				switch (this.getFace()){
 				case "N": this.setFace("W");
 				break;
