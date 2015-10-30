@@ -302,3 +302,6 @@ UnitTestSessionAction 1446217048877 TestPlanetExplorer OK
 RefactoringAction 1446217061389 TestPlanetExplorer.java ADD void testMovingForwardFaceWest()/2 METHOD
 RefactoringAction 1446217066907 TestPlanetExplorer.java RENAME testMovingForwardFaceWest()/2=>void testMovingBackwardFaceWest() METHOD
 EditAction 1446217071074 TestPlanetExplorer.java 2460 9 35 17
+UnitTestCaseAction 1446217073496 TestPlanetExplorer.java OK
+UnitTestSessionAction 1446217073497 TestPlanetExplorer OK
+EditAction 1446217103861 TestPlanetExplorer.java 2461 9 35 17
