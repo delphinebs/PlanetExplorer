@@ -33,3 +33,6 @@ RefactoringAction 1446211551477 PlanetExplorer.java RENAME obstacle=>String obst
 RefactoringAction 1446211562497 PlanetExplorer.java ADD String getObstacles() METHOD
 RefactoringAction 1446211562498 PlanetExplorer.java ADD void setObstacles(String) METHOD
 EditAction 1446211595172 PlanetExplorer.java 1894 8 10 0
+UnitTestCaseAction 1446211611223 TestPlanetExplorer.java OK
+UnitTestSessionAction 1446211611223 TestPlanetExplorer.testCreatePlanetSize OK
+EditAction 1446211637590 TestPlanetExplorer.java 464 1 4 3
