@@ -146,7 +146,7 @@ public class PlanetExplorer {
 				case "S":this.setFace("E");
 				break;
 				case "W":this.setFace("S");
-				break
+				break;
 				}				
 			}
 		}
