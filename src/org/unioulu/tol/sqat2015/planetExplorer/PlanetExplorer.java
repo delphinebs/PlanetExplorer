@@ -86,7 +86,7 @@ public class PlanetExplorer {
 	}
 	
 	public void turning(String turn){
-		if (turn!="R" && turn!="L"){
+		if (turn!="R" || turn!="L"){
 			//error
 		}
 		else {
