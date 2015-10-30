@@ -221,3 +221,8 @@ EditAction 1446215481514 PlanetExplorer.java 3184 16 21 0
 UnitTestCaseAction 1446215482423 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1446215482423 TestPlanetExplorer FAIL
 EditAction 1446215511809 PlanetExplorer.java 3166 16 20 0
+UnitTestCaseAction 1446215512782 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1446215512782 TestPlanetExplorer FAIL
+RefactoringAction 1446215555809 PlanetExplorer.java REMOVE executeCommand(String) METHOD
+RefactoringAction 1446215560340 PlanetExplorer.java ADD String executeCommand(String) METHOD
+EditAction 1446215575707 PlanetExplorer.java 3201 16 20 0
