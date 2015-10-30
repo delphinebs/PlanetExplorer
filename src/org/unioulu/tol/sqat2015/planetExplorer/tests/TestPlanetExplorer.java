@@ -33,5 +33,6 @@ public class TestPlanetExplorer {
 		PlanetExplorer planetExplorer =new PlanetExplorer(0, 0, "(obs1_x,obs1_y)");
 		planetExplorer.landing();
 		assertEquals(planetExplorer.getxPosition(),planetExplorer.getyPosition(),0);
+		assertEquals(planetExplorer.getFace(), null);
 	}
 }

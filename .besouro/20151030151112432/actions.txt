@@ -149,3 +149,4 @@ RefactoringAction 1446213867229 PlanetExplorer.java ADD String face FIELD
 RefactoringAction 1446213885272 PlanetExplorer.java ADD String getFace() METHOD
 RefactoringAction 1446213885273 PlanetExplorer.java ADD void setFace(String) METHOD
 EditAction 1446213902062 PlanetExplorer.java 2638 15 19 0
+EditAction 1446213957629 TestPlanetExplorer.java 1138 3 13 7
