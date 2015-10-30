@@ -140,9 +140,13 @@ public class PlanetExplorer {
 			else{
 				switch (this.getFace()){
 				case "N": this.setFace("W");
+				break;
 				case "E":this.setFace("N");
+				break;
 				case "S":this.setFace("E");
+				break;
 				case "W":this.setFace("S");
+				break
 				}				
 			}
 		}
