@@ -36,3 +36,6 @@ EditAction 1446211595172 PlanetExplorer.java 1894 8 10 0
 UnitTestCaseAction 1446211611223 TestPlanetExplorer.java OK
 UnitTestSessionAction 1446211611223 TestPlanetExplorer.testCreatePlanetSize OK
 EditAction 1446211637590 TestPlanetExplorer.java 464 1 4 3
+UnitTestCaseAction 1446211648558 TestPlanetExplorer.java OK
+UnitTestSessionAction 1446211648559 TestPlanetExplorer OK
+EditAction 1446211723613 TestPlanetExplorer.java 477 1 4 3
