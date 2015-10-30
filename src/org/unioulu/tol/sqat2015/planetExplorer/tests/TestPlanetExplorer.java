@@ -23,7 +23,7 @@ public class TestPlanetExplorer {
 		planetExplorer.setPlanetXSize(3);
 		planetExplorer.setPlanetYSize(4);
 		assertEquals(planetExplorer.getPlanetXSize(),3);
-		assertEquals(planetExplorer.getPlanetXSize(),4);
+		assertEquals(planetExplorer.getPlanetYSize(),4);
 	
 	}
 	
