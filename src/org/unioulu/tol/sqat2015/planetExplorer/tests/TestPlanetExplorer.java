@@ -43,6 +43,7 @@ public class TestPlanetExplorer {
 	public void testturningRight(){
 		
 		planetExplorer.turning("R");
+		assertEquals(planetExplorer.getFace(),"E");
 		
 		
 	}
