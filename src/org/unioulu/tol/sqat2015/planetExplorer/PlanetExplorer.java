@@ -87,11 +87,12 @@ public class PlanetExplorer {
 	
 	public void turning(String turn){
 		if (turn!="R" && turn!="L"){
-			this.setFace("E");
+			
 			//error
 		}
 		else {
 			this.setFace("E");
+			
 			if (turn=="R"){
 				
 				switch (this.getFace()){
@@ -101,14 +102,15 @@ public class PlanetExplorer {
 				case "W":this.setFace("N");
 				}
 			}
+			
+			
 			else{
 				switch (this.getFace()){
 				case "N": this.setFace("W");
 				case "E":this.setFace("N");
 				case "S":this.setFace("E");
 				case "W":this.setFace("S");
-				
-			}
+				}				
 			}
 		}
 	}
