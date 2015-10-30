@@ -111,6 +111,7 @@ public class PlanetExplorer {
 		case "N" : this.setyPosition(getyPosition()-1);
 		break;
 		case "W" : this.setxPosition(1);
+		break;
 		}
 	}
 	public void turning(String turn){
