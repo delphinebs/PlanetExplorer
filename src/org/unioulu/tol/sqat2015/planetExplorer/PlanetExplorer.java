@@ -109,6 +109,7 @@ public class PlanetExplorer {
 	public void movingBackward(){
 		switch (this.getFace()){
 		case "N" : this.setyPosition(getyPosition()-1);
+		break;
 		case "W" : this.setxPosition(1);
 		}
 	}
