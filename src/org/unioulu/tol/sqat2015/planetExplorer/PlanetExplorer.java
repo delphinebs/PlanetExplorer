@@ -107,14 +107,22 @@ public class PlanetExplorer {
 		}
 	}
 	public void movingBackward(){
-		switch (this.getFace()){
-		case "N" : this.setyPosition(getyPosition()-1);
-		break;
-		case "W" : this.setxPosition(1);
-		break;
-		
-		default : throw new IllegalArgumentException("Invalid Face");
-		}
+		if (this.getFace()=="N"){
+			this.setyPosition(getyPosition()-1);
+			}
+			else {
+				if (this.getFace()=="S"){
+					this.setyPosition(getyPosition()+1);
+				}
+				else{if(this.getFace()=="E"){
+					this.setyPosition(getxPosition()-1);
+				}
+				else {
+					if (this.getFace()=="W"){
+						this.setyPosition(getxPosition()+1);
+					}
+				}
+				}
 	}
 	public void turning(String turn){
 		
