@@ -16,3 +16,7 @@ RefactoringAction 1446211130539 TestPlanetExplorer.java RENAME testCreate()=>voi
 RefactoringAction 1446211161991 TestPlanetExplorer.java RENAME testCreatePlanet()=>void testCreatePlanetSize() METHOD
 EditAction 1446211176192 TestPlanetExplorer.java 248 1 1 0
 EditAction 1446211176645 PlanetExplorer.java 1621 6 5 0
+UnitTestCaseAction 1446211178178 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1446211178187 TestPlanetExplorer FAIL
+RefactoringAction 1446211234006 TestPlanetExplorer.java ADD import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer IMPORT
+EditAction 1446211358070 TestPlanetExplorer.java 419 1 3 2
