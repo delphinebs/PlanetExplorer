@@ -87,9 +87,23 @@ public class PlanetExplorer {
 	
 	public void movingForward(){
 		
-		switch (this.getFace()){
-		case "N" : this.setyPosition(getyPosition()+1);
-		
+		if (this.getFace()=="N"){
+		this.setyPosition(getyPosition()+1);
+		}
+		else {
+			if (this.getFace()=="S"){
+				this.setyPosition(getyPosition()-1);
+			}
+			else{if(this.getFace()=="E"){
+				this.setyPosition(getxPosition()+1);
+			}
+			else {
+				if (this.getFace()=="W"){
+					this.setyPosition(getxPosition()-1);
+				}
+			}
+			}
+			
 		}
 	}
 	public void movingBackward(){
