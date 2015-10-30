@@ -44,7 +44,24 @@ public class TestPlanetExplorer {
 		planetExplorer.landing();
 		planetExplorer.turning("R");
 		assertEquals(planetExplorer.getFace(),"E");
+		//problem to fix with the switch in the function
+	
+	}
+	//test turning left to be implemented
+	
+	@Test
+	public void testMovingForwardFaceNorth(){
+		planetExplorer.landing();
+		planetExplorer.moving("f"); //f forward and b backward
+		assertEquals(planetExplorer.getyPosition(),1);
+		assertEquals(planetExplorer.getxPosition(),0);
 		
+	}
+	@Test
+	public void testMovingBackwardFaceNorth(){
+		planetExplorer.landing();
+		planetExplorer.moving("b"); //f forward and b backward
+		assertEquals(planetExplorer.getyPosition(),-1);
 		
 	}
 }

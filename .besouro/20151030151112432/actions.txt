@@ -226,3 +226,20 @@ UnitTestSessionAction 1446215512782 TestPlanetExplorer FAIL
 RefactoringAction 1446215555809 PlanetExplorer.java REMOVE executeCommand(String) METHOD
 RefactoringAction 1446215560340 PlanetExplorer.java ADD String executeCommand(String) METHOD
 EditAction 1446215575707 PlanetExplorer.java 3201 16 20 0
+UnitTestCaseAction 1446215576560 TestPlanetExplorer.java OK
+UnitTestSessionAction 1446215576561 TestPlanetExplorer OK
+RefactoringAction 1446215712681 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1446215714691 TestPlanetExplorer.java RENAME test=>void testMoving FIELD
+RefactoringAction 1446215726210 TestPlanetExplorer.java RENAME testMoving=>void testMoving() METHOD
+RefactoringAction 1446215746358 PlanetExplorer.java ADD void moving() METHOD
+RefactoringAction 1446215750392 PlanetExplorer.java RENAME moving()=>void moving(String) METHOD
+RefactoringAction 1446215980468 TestPlanetExplorer.java RENAME testMoving()=>void testMovingForward() METHOD
+RefactoringAction 1446215987993 TestPlanetExplorer.java ADD void testMovingForward()/2 METHOD
+RefactoringAction 1446215994008 TestPlanetExplorer.java RENAME testMovingForward()/2=>void testMovingBack() METHOD
+RefactoringAction 1446215996521 TestPlanetExplorer.java RENAME testMovingBack()=>void testMovingBackward() METHOD
+RefactoringAction 1446216037615 TestPlanetExplorer.java RENAME testMovingForward()=>void testMovingForwardCas() METHOD
+RefactoringAction 1446216040127 TestPlanetExplorer.java RENAME testMovingForwardCas()=>void testMovingForwardFirst() METHOD
+RefactoringAction 1446216041640 TestPlanetExplorer.java RENAME testMovingForwardFirst()=>void testMovingForwardFirstMove() METHOD
+RefactoringAction 1446216049658 TestPlanetExplorer.java RENAME testMovingForwardFirstMove()=>void testMovingForwardFaceNorth() METHOD
+RefactoringAction 1446216053672 TestPlanetExplorer.java RENAME testMovingBackward()=>void testMovingBackwardFaceNorth() METHOD
+EditAction 1446216075857 TestPlanetExplorer.java 1699 6 20 11
