@@ -52,7 +52,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void testMovingForwardFaceNorth(){
 		planetExplorer.landing();
-		planetExplorer.moving("f"); //f forward and b backward
+		planetExplorer.movingForward(); //f forward and b backward
 		assertEquals(planetExplorer.getyPosition(),1);
 		assertEquals(planetExplorer.getxPosition(),0);
 		
@@ -60,7 +60,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void testMovingBackwardFaceNorth(){
 		planetExplorer.landing();
-		planetExplorer.moving("b"); //f forward and b backward
+		planetExplorer.movingBackward(); //f forward and b backward
 		assertEquals(planetExplorer.getyPosition(),-1);
 		
 	}

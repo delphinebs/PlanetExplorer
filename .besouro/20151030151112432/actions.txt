@@ -260,3 +260,7 @@ RefactoringAction 1446216259510 PlanetExplorer.java RENAME moving=>void movingBa
 RefactoringAction 1446216260524 PlanetExplorer.java RENAME movingBackward=>void movingBackward() METHOD
 RefactoringAction 1446216302616 PlanetExplorer.java RENAME movingFordward()=>void movingForward() METHOD
 EditAction 1446216303772 PlanetExplorer.java 3378 18 20 0
+CompilationAction 1446216304190 PlanetExplorer.java
+CompilationAction 1446216304191 TestPlanetExplorer.java
+CompilationAction 1446216326063 TestPlanetExplorer.java
+EditAction 1446216398070 PlanetExplorer.java 3420 18 21 0
