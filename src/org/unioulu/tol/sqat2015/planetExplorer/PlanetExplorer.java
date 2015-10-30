@@ -85,6 +85,9 @@ public class PlanetExplorer {
 		this.setFace("N");
 	}
 	
+	public void moving(String move){
+		
+	}
 	public void turning(String turn){
 		
 		if (turn!="R" && turn!="L"){
@@ -98,6 +101,7 @@ public class PlanetExplorer {
 				
 				if(this.getFace()=="N"){
 					this.setFace("E");
+					//problem to fix with the switch case with string
 				/*case "N": this.setFace("E");
 				case "E":this.setFace("S");
 				case "S":this.setFace("W");

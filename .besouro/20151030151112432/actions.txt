@@ -243,3 +243,5 @@ RefactoringAction 1446216041640 TestPlanetExplorer.java RENAME testMovingForward
 RefactoringAction 1446216049658 TestPlanetExplorer.java RENAME testMovingForwardFirstMove()=>void testMovingForwardFaceNorth() METHOD
 RefactoringAction 1446216053672 TestPlanetExplorer.java RENAME testMovingBackward()=>void testMovingBackwardFaceNorth() METHOD
 EditAction 1446216075857 TestPlanetExplorer.java 1699 6 20 11
+CompilationAction 1446216076127 TestPlanetExplorer.java
+EditAction 1446216076224 PlanetExplorer.java 3300 17 20 0
