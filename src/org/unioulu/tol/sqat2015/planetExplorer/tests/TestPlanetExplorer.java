@@ -27,11 +27,11 @@ public class TestPlanetExplorer {
 	
 	}
 	
-	/*
+	
 	@Test
 	public void testLanding(){
 		PlanetExplorer planetExplorer =new PlanetExplorer(0, 0, "(obs1_x,obs1_y)");
 		planetExplorer.landing();
-		assertEquals(planetExplorer.getxSize(),planetExplorer.getySize(),0);
-	}*/	
+		assertEquals(planetExplorer.getxPosition(),planetExplorer.getyPosition(),0);
+	}
 }
