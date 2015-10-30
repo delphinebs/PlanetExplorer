@@ -95,11 +95,11 @@ public class PlanetExplorer {
 				this.setyPosition(getyPosition()-1);
 			}
 			else{if(this.getFace()=="E"){
-				this.setyPosition(getxPosition()+1);
+				this.setxPosition(getxPosition()+1);
 			}
 			else {
 				if (this.getFace()=="W"){
-					this.setyPosition(getxPosition()-1);
+					this.setxPosition(getxPosition()-1);
 				}
 			}
 			}
@@ -115,11 +115,11 @@ public class PlanetExplorer {
 				this.setyPosition(getyPosition()+1);
 			}
 			else{if(this.getFace()=="E"){					
-				this.setyPosition(getxPosition()-1);
+				this.setxPosition(getxPosition()-1);
 				}
 				else {
 					if (this.getFace()=="W"){
-						this.setyPosition(getxPosition()+1);
+						this.setxPosition(getxPosition()+1);
 					}
 				}
 				}
