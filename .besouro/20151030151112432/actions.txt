@@ -1,0 +1,17 @@
+FileOpenedAction 1446210672950 TestPlanetExplorer.java 228 1 1 0
+FileOpenedAction 1446210694009 PlanetExplorer.java 1342 2 1 0
+RefactoringAction 1446211016354 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1446211023430 PlanetExplorer.java ADD int y FIELD
+RefactoringAction 1446211055519 PlanetExplorer.java REMOVE x FIELD
+RefactoringAction 1446211057542 PlanetExplorer.java ADD int FIELD
+RefactoringAction 1446211065075 PlanetExplorer.java REMOVE x FIELD
+RefactoringAction 1446211070091 PlanetExplorer.java ADD int xSize FIELD
+RefactoringAction 1446211073109 PlanetExplorer.java RENAME y=>int ySize FIELD
+RefactoringAction 1446211116041 PlanetExplorer.java ADD int getxSize() METHOD
+RefactoringAction 1446211116042 PlanetExplorer.java ADD void setxSize(int) METHOD
+RefactoringAction 1446211116042 PlanetExplorer.java ADD int getySize() METHOD
+RefactoringAction 1446211116042 PlanetExplorer.java ADD void setySize(int) METHOD
+RefactoringAction 1446211127026 TestPlanetExplorer.java RENAME test()=>void testCreate() METHOD
+RefactoringAction 1446211130539 TestPlanetExplorer.java RENAME testCreate()=>void testCreatePlanet() METHOD
+RefactoringAction 1446211161991 TestPlanetExplorer.java RENAME testCreatePlanet()=>void testCreatePlanetSize() METHOD
+EditAction 1446211176192 TestPlanetExplorer.java 248 1 1 0

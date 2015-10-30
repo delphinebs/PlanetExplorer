@@ -7,7 +7,8 @@ import org.junit.Test;
 public class TestPlanetExplorer {
 
 	@Test
-	public void test() {
+	public void testCreatePlanetSize() {
+		
 		fail("Not yet implemented");
 	}
 }
