@@ -97,6 +97,7 @@ public class PlanetExplorer {
 				case "S":this.setFace("W");
 				case "W":this.setFace("N");
 				}
+			}
 			else{
 				switch (this.getFace()){
 				case "N": this.setFace("W");
