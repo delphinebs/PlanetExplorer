@@ -40,7 +40,10 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void testturning(){
+	public void testturningRight(){
+		
+		planetExplorer.turning("R");
+		
 		
 	}
 }
