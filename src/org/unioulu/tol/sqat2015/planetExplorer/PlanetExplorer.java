@@ -110,12 +110,12 @@ public class PlanetExplorer {
 		if (this.getFace()=="N"){
 			this.setyPosition(getyPosition()-1);
 			}
-			else {
-				if (this.getFace()=="S"){
-					this.setyPosition(getyPosition()+1);
-				}
-				else{if(this.getFace()=="E"){
-					this.setyPosition(getxPosition()-1);
+		else {
+			if (this.getFace()=="S"){
+				this.setyPosition(getyPosition()+1);
+			}
+			else{if(this.getFace()=="E"){					
+				this.setyPosition(getxPosition()-1);
 				}
 				else {
 					if (this.getFace()=="W"){
