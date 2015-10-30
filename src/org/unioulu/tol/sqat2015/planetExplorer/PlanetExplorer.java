@@ -86,7 +86,7 @@ public class PlanetExplorer {
 	}
 	
 	public void turning(String turn){
-		this.setFace("E");
+		this.setFace("O");
 		if (turn!="R" && turn!="L"){
 			
 			//error
