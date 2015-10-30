@@ -57,6 +57,13 @@ public class TestPlanetExplorer {
 		assertEquals(planetExplorer.getxPosition(),0);
 		
 	}
+	public void testMovingForwardFaceSouth(){
+		planetExplorer.landing();
+		planetExplorer.setFace("S");
+		planetExplorer.movingForward();
+		assertEquals(planetExplorer.getyPosition(),-1);
+		assertEquals(planetExplorer.getxPosition(),0);
+	}
 	@Test
 	public void testMovingBackwardFaceNorth(){
 		planetExplorer.landing();

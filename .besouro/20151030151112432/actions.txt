@@ -267,3 +267,7 @@ EditAction 1446216398070 PlanetExplorer.java 3420 18 21 0
 UnitTestCaseAction 1446216399020 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1446216399021 TestPlanetExplorer FAIL
 EditAction 1446216421258 PlanetExplorer.java 3500 18 22 0
+UnitTestCaseAction 1446216422089 TestPlanetExplorer.java OK
+UnitTestSessionAction 1446216422089 TestPlanetExplorer OK
+RefactoringAction 1446216456361 TestPlanetExplorer.java ADD void testMovingForwardFaceSouth() METHOD
+EditAction 1446216597621 TestPlanetExplorer.java 1953 7 25 13
