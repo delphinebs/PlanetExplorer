@@ -82,6 +82,7 @@ public class TestPlanetExplorer {
 		
 	}
 	
+	@Test
 	public void testMovingBackwardFaceWest(){
 		planetExplorer.landing();
 		planetExplorer.setFace("W");
