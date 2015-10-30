@@ -85,6 +85,30 @@ public class PlanetExplorer {
 		this.setFace("N");
 	}
 	
+	public void turning(String turn){
+		if (turn!="R" && turn!="L"){
+			//error
+		}
+		else {
+			if (turn=="R"){
+				switch (this.getFace()){
+				case "N": this.setFace("E");
+				case "E":this.setFace("S");
+				case "S":this.setFace("W");
+				case "W":this.setFace("N");
+				}
+			else{
+				switch (this.getFace()){
+				case "N": this.setFace("W");
+				case "E":this.setFace("N");
+				case "S":this.setFace("E");
+				case "W":this.setFace("S");
+				
+			}
+			}
+		}
+	}
+	
 	public String executeCommand(String command){
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
