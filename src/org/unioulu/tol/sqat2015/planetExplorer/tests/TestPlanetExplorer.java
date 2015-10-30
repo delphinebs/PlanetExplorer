@@ -20,9 +20,10 @@ public class TestPlanetExplorer {
 	public void testPlanetsize(){
 		PlanetExplorer planetExplorer = new PlanetExplorer(100, 100, "(obs1_x,obs1_y)");
 		
-		int size[] = {1,4};
-		planetExplorer.setPlanetSize(size);
-		assertEquals(planetExplorer.getPlanetSize(),4);
+		planetExplorer.setPlanetXSize(3);
+		planetExplorer.setPlanetYSize(4);
+		assertEquals(planetExplorer.getPlanetXSize(),3);
+		assertEquals(planetExplorer.getPlanetXSize(),4);
 	
 	}
 	

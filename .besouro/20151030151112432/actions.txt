@@ -118,3 +118,16 @@ UnitTestSessionAction 1446213506049 TestPlanetExplorer FAIL
 UnitTestCaseAction 1446213513561 TestPlanetExplorer.java OK
 UnitTestSessionAction 1446213513562 TestPlanetExplorer.testPlanetExplorerSetSize OK
 EditAction 1446213527915 TestPlanetExplorer.java 1021 2 8 4
+UnitTestCaseAction 1446213528882 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1446213528882 TestPlanetExplorer FAIL
+RefactoringAction 1446213557401 PlanetExplorer.java RENAME planetSize=>int planetXSize FIELD
+RefactoringAction 1446213564429 PlanetExplorer.java ADD int planetXSize/2 FIELD
+RefactoringAction 1446213568941 PlanetExplorer.java REMOVE getPlanetSize() METHOD
+RefactoringAction 1446213568941 PlanetExplorer.java REMOVE setPlanetSize(int METHOD
+RefactoringAction 1446213571955 PlanetExplorer.java RENAME planetXSize/2=>int planetSize FIELD
+RefactoringAction 1446213572969 PlanetExplorer.java RENAME planetSize=>int planetYSize FIELD
+RefactoringAction 1446213592785 PlanetExplorer.java ADD int getPlanetXSize() METHOD
+RefactoringAction 1446213592786 PlanetExplorer.java ADD void setPlanetXSize(int) METHOD
+RefactoringAction 1446213592786 PlanetExplorer.java ADD int getPlanetYSize() METHOD
+RefactoringAction 1446213592787 PlanetExplorer.java ADD void setPlanetYSize(int) METHOD
+EditAction 1446213658405 TestPlanetExplorer.java 1086 2 9 5
