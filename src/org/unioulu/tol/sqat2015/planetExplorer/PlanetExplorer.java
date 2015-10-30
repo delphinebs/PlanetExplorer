@@ -123,6 +123,7 @@ public class PlanetExplorer {
 					}
 				}
 				}
+			}
 	}
 	public void turning(String turn){
 		
