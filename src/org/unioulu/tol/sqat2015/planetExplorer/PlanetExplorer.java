@@ -112,6 +112,8 @@ public class PlanetExplorer {
 		break;
 		case "W" : this.setxPosition(1);
 		break;
+		
+		default : throw new IllegalArgumentException("Invalid Face");
 		}
 	}
 	public void turning(String turn){
