@@ -53,8 +53,8 @@ public class TestPlanetExplorer {
 	public void testMovingForwardFaceNorth(){
 		planetExplorer.landing();
 		planetExplorer.movingForward(); //f forward and b backward
-		assertEquals(planetExplorer.getyPosition(),1);
-		assertEquals(planetExplorer.getxPosition(),0);
+		assertEquals(1,planetExplorer.getyPosition());
+		assertEquals(0,planetExplorer.getxPosition());
 		
 	}
 	@Test
