@@ -85,7 +85,13 @@ public class PlanetExplorer {
 		this.setFace("N");
 	}
 	
-	public void moving(String move){
+	public void movingForward(){
+		
+		switch (this.getFace()){
+		case 
+		}
+	}
+	public void movingBackward(){
 		
 	}
 	public void turning(String turn){
