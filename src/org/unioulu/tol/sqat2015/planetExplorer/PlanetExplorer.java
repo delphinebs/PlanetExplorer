@@ -8,16 +8,27 @@ public class PlanetExplorer {
 	private int xPosition;
 	private int yPosition;
 	private String obstacles;
-	int planetSize[]; 
+	int planetXSize; 
+	int planetYSize; 
 	
 	//Getter and setter
 	
-	public int[] getPlanetSize() {
-		return planetSize;
+	
+
+	public int getPlanetXSize() {
+		return planetXSize;
 	}
 
-	public void setPlanetSize(int[] planetSize) {
-		this.planetSize = planetSize;
+	public void setPlanetXSize(int planetXSize) {
+		this.planetXSize = planetXSize;
+	}
+
+	public int getPlanetYSize() {
+		return planetYSize;
+	}
+
+	public void setPlanetYSize(int planetYSize) {
+		this.planetYSize = planetYSize;
 	}
 
 	public int getxPosition() {
