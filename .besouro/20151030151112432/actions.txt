@@ -271,3 +271,8 @@ UnitTestCaseAction 1446216422089 TestPlanetExplorer.java OK
 UnitTestSessionAction 1446216422089 TestPlanetExplorer OK
 RefactoringAction 1446216456361 TestPlanetExplorer.java ADD void testMovingForwardFaceSouth() METHOD
 EditAction 1446216597621 TestPlanetExplorer.java 1953 7 25 13
+UnitTestCaseAction 1446216598566 TestPlanetExplorer.java OK
+UnitTestSessionAction 1446216598566 TestPlanetExplorer OK
+UnitTestCaseAction 1446216616930 TestPlanetExplorer.java OK
+UnitTestSessionAction 1446216616931 TestPlanetExplorer OK
+EditAction 1446216628969 TestPlanetExplorer.java 1961 7 25 13
