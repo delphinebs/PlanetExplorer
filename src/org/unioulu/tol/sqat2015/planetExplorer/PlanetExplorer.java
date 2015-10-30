@@ -7,10 +7,20 @@ public class PlanetExplorer {
 	
 	private int xSize;
 	private int ySize;
+	private String obstacles;
 	
+	//Getter and setter
 	
 	public int getxSize() {
 		return xSize;
+	}
+
+	public String getObstacles() {
+		return obstacles;
+	}
+
+	public void setObstacles(String obstacles) {
+		this.obstacles = obstacles;
 	}
 
 	public void setxSize(int xSize) {
@@ -32,6 +42,10 @@ public class PlanetExplorer {
 		Example use:
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
+		
+		this.setxSize(x);
+		this.setySize(y);
+		this.setObstacles(obstacles);
 	}
 	
 	public String executeCommand(String command){
