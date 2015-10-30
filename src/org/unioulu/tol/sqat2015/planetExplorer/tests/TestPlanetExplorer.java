@@ -8,7 +8,7 @@ import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer;
 public class TestPlanetExplorer {
 	
 	//before
-	PlanetExplorer planetExplorer =new PlanetExplorer(0, 0, "(obs1_x,obs1_y)");
+	PlanetExplorer planetExplorer =new PlanetExplorer(100, 100, "(obs1_x,obs1_y)");
 
 	@Test
 	public void testPlanetExplorerSetSize() {
