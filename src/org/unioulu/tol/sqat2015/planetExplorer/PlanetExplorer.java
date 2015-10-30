@@ -7,6 +7,15 @@ public class PlanetExplorer {
 	
 	private int xPosition;
 	private int yPosition;
+	private String face;
+	public String getFace() {
+		return face;
+	}
+
+	public void setFace(String face) {
+		this.face = face;
+	}
+
 	private String obstacles;
 	int planetXSize; 
 	int planetYSize; 
@@ -67,6 +76,13 @@ public class PlanetExplorer {
 		this.setxPosition(x);
 		this.setyPosition(y);
 		this.setObstacles(obstacles);
+	}
+	
+	public void landing(){
+		//when the explorer lands, it start at th start of the grid and face north
+		this.setxPosition(0);
+		this.setyPosition(0);
+		this.setFace("N");
 	}
 	
 	public String executeCommand(String command){

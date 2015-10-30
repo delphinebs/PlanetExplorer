@@ -142,3 +142,10 @@ UnitTestCaseAction 1446213679438 TestPlanetExplorer.java OK
 UnitTestSessionAction 1446213679438 TestPlanetExplorer OK
 RefactoringAction 1446213685262 TestPlanetExplorer.java ADD void testLanding() METHOD
 EditAction 1446213723761 TestPlanetExplorer.java 1089 3 12 6
+CompilationAction 1446213724075 TestPlanetExplorer.java
+RefactoringAction 1446213759851 PlanetExplorer.java ADD void landing FIELD
+RefactoringAction 1446213760865 PlanetExplorer.java RENAME landing=>void landing() METHOD
+RefactoringAction 1446213867229 PlanetExplorer.java ADD String face FIELD
+RefactoringAction 1446213885272 PlanetExplorer.java ADD String getFace() METHOD
+RefactoringAction 1446213885273 PlanetExplorer.java ADD void setFace(String) METHOD
+EditAction 1446213902062 PlanetExplorer.java 2638 15 19 0
