@@ -41,7 +41,7 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void testturningRight(){
-		
+		planetExplorer.landing();
 		planetExplorer.turning("R");
 		assertEquals(planetExplorer.getFace(),"E");
 		
