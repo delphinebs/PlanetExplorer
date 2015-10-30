@@ -46,3 +46,20 @@ RefactoringAction 1446211826551 TestPlanetExplorer.java ADD void test FIELD
 RefactoringAction 1446211829061 TestPlanetExplorer.java RENAME test=>void testLanding FIELD
 RefactoringAction 1446211830571 TestPlanetExplorer.java RENAME testLanding=>void testLanding() METHOD
 EditAction 1446211970322 TestPlanetExplorer.java 661 2 7 4
+CompilationAction 1446211970575 TestPlanetExplorer.java
+RefactoringAction 1446212111214 TestPlanetExplorer.java RENAME testCreatePlanetSize()=>void testCreatePlanetSetSize() METHOD
+CompilationAction 1446212147859 TestPlanetExplorer.java
+CompilationAction 1446212148022 TestPlanetExplorer.java
+RefactoringAction 1446212218898 TestPlanetExplorer.java RENAME testCreatePlanetSetSize()=>void testCreatePlanetExplorerSetSize() METHOD
+RefactoringAction 1446212238452 TestPlanetExplorer.java REMOVE testLanding() METHOD
+RefactoringAction 1446212259566 TestPlanetExplorer.java RENAME testCreatePlanetExplorerSetSize()=>void testCreatePlanetSetSize() METHOD
+RefactoringAction 1446212356976 PlanetExplorer.java ADD int FIELD
+RefactoringAction 1446212448688 PlanetExplorer.java ADD int METHOD
+RefactoringAction 1446212448689 PlanetExplorer.java ADD void setPlanetSize(int METHOD
+RefactoringAction 1446212517930 PlanetExplorer.java RENAME xSize=>int xPosition FIELD
+RefactoringAction 1446212523949 PlanetExplorer.java RENAME ySize=>int yPosition FIELD
+CompilationAction 1446212533928 TestPlanetExplorer.java
+CompilationAction 1446212534071 TestPlanetExplorer.java
+CompilationAction 1446212534071 TestPlanetExplorer.java
+CompilationAction 1446212534072 TestPlanetExplorer.java
+EditAction 1446212539047 PlanetExplorer.java 2096 10 12 0

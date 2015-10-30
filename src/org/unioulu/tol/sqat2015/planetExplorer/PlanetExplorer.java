@@ -1,16 +1,25 @@
 package org.unioulu.tol.sqat2015.planetExplorer;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
-// ID:
+// ID: 2479820
 // Finish time:
 public class PlanetExplorer {
 	
-	private int xSize;
-	private int ySize;
+	private int xPosition;
+	private int yPosition;
 	private String obstacles;
+	int[] planetSize = new int[2]; 
 	
 	//Getter and setter
 	
+	public int[] getPlanetSize() {
+		return planetSize;
+	}
+
+	public void setPlanetSize(int[] planetSize) {
+		this.planetSize = planetSize;
+	}
+
 	public int getxSize() {
 		return xSize;
 	}
@@ -42,6 +51,7 @@ public class PlanetExplorer {
 		Example use:
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
+		
 		
 		this.setxSize(x);
 		this.setySize(y);
