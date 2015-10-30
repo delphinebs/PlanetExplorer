@@ -78,6 +78,7 @@ public class TestPlanetExplorer {
 		planetExplorer.landing();
 		planetExplorer.movingBackward(); //f forward and b backward
 		assertEquals(planetExplorer.getyPosition(),-1);
+		assertEquals(planetExplorer.getxPosition(),0);
 		
 	}
 	
