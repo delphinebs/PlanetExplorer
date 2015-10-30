@@ -40,3 +40,9 @@ UnitTestCaseAction 1446211648558 TestPlanetExplorer.java OK
 UnitTestSessionAction 1446211648559 TestPlanetExplorer OK
 EditAction 1446211723613 TestPlanetExplorer.java 477 1 4 3
 EditAction 1446211739565 TestPlanetExplorer.java 490 1 4 3
+UnitTestCaseAction 1446211742994 TestPlanetExplorer.java OK
+UnitTestSessionAction 1446211742995 TestPlanetExplorer OK
+RefactoringAction 1446211826551 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1446211829061 TestPlanetExplorer.java RENAME test=>void testLanding FIELD
+RefactoringAction 1446211830571 TestPlanetExplorer.java RENAME testLanding=>void testLanding() METHOD
+EditAction 1446211970322 TestPlanetExplorer.java 661 2 7 4

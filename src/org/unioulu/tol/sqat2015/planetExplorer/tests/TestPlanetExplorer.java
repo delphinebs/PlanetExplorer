@@ -14,4 +14,11 @@ public class TestPlanetExplorer {
 		assertEquals(planet.getySize(),100);
 		assertEquals(planet.getObstacles(),"(obs1_x,obs1_y)");
 	}
+	
+	@Test
+	public void testLanding(){
+		Explorer explorer =new Explorer();
+		explorer.landing();
+		assertEquals(explorer.getXExplorer(),explorer.getYExplorer,0);
+	}
 }
