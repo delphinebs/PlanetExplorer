@@ -92,7 +92,9 @@ public class PlanetExplorer {
 		}
 	}
 	public void movingBackward(){
-		
+		switch (this.getFace()){
+		case "N" : this.setyPosition(getyPosition()-1);
+		}
 	}
 	public void turning(String turn){
 		
